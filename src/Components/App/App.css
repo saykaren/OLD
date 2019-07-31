@@ -7,7 +7,7 @@ body, html {
 
 .button{
   text-decoration: none;
-  border: 1px solid #49167d;
+  border: 1px solid #00a3da;
   background-color: #49167d;
   color: white;
   border-radius: 25px;
@@ -53,14 +53,14 @@ body, html {
   font-size: 2rem;
 }
 
-.credentialDetails, .contactMeDetails{
-  border: .2rem solid #49167d;
+.contactMeDetails{
+  border: .2rem solid #00a3da;
   font-size: 1.5rem;
   margin: auto;
   margin-bottom: .5rem;
   background-color: #e6e6e6;
   position: relative;
-  color: #49167d;
+  color: #00a3da;
   width: 45%;
   word-wrap: break-word;
   padding: 1rem;
@@ -71,7 +71,7 @@ body, html {
   height: 3.5rem;
   word-wrap: break-word;
   background-color: #e6e6e6;
-  color: #49167d;
+  color: #00a3da;
   text-align: center;
   font-size: 1.5rem;
   bottom: 0;
@@ -102,6 +102,12 @@ body, html {
   margin-bottom: -5rem;
 }
 
+.icons{
+  display: flex;
+  justify-content: center;
+  padding: 1rem;
+}
+
 .navBar {
   display: flex;
   flex-direction: row;
@@ -114,10 +120,11 @@ body, html {
 .navBar a {
   text-decoration: none;
   padding: 10px;
+  color: #00a3da;
 }
 
 .navLink a:hover {
-  color: #00a3da;
+  color: #D1D1D1;
   cursor: pointer;
 }
 
@@ -149,7 +156,7 @@ body, html {
   border-radius: 25px;
 }
 
-.reference{
+.workPortfolio{
   border: .2rem solid black;
   width: 15rem;
   margin: 1rem;
@@ -157,11 +164,11 @@ body, html {
   padding: .2rem;
 }
 
-.referenceImage{
+.workImg{
   width: 15rem;
 }
 
-#referenceSectionContainer{
+#workContainer{
   display: flex;
   flex-direction: row;
   color: black;
@@ -169,7 +176,7 @@ body, html {
   justify-content: space-around;  
 }
 
-#referenceTitle{
+#myWork {
   color: white;
   font-size: 2.5rem;
   text-align: center;
@@ -177,6 +184,14 @@ body, html {
 
 #sayKarenLogo {
   height: 3.2rem;
+}
+
+#sayKarenLogoFrontPage {
+
+}
+
+#stateChange {
+  font-size: 5rem;
 }
 
 .services, .faq {

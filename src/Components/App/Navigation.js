@@ -16,13 +16,15 @@ const NavigationBar = () => (
             <Link to="/Home">Home</Link>
           </div>
 
+          <div className="navLink"> 
+            <Link to={"/MyWork"}>My Work</Link>
+          </div>
+
           <div className="navLink">
             <Link to={"/AboutMe"}>About Me</Link>
           </div>
 
-          <div className="navLink"> 
-            <Link to={"/MyWork"}>My Work</Link>
-          </div>
+
 
 
           <div className="navLink">
