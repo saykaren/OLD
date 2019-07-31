@@ -18,8 +18,8 @@ const ContactMe = () => (
         className="contactMeDetails"
       >
         <i class="fa fa-envelope" aria-hidden="true"></i>
-        <a href="mailto:alannaeeverett@gmail.com">
-          alannaeeverett@gmail.com
+        <a href="mailto:saykaren@gmail.com">
+          sayKaren@gmail.com
         </a>
       </section>
 
@@ -28,8 +28,8 @@ const ContactMe = () => (
         className="contactMeDetails"
       >
         <i class="fa fa-phone" aria-hidden="true"></i>
-        <a href="tel:+3035221514">
-          303.522.1514
+        <a href="tel:+3039468405">
+          303.946.8405
         </a>
       </section>
       
