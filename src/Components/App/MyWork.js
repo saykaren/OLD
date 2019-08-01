@@ -5,6 +5,7 @@ import ReactWebsite from '../../assets/React_Website_ES6_8.1.2019.png'
 import NumberGif from '../../assets/Number_Guesser.gif'
 import Bomdigity from '../../assets/Bomdigity.gif'
 import flashcard from '../../assets/flashcard-starter.gif'
+import check from '../../assets/checkwritting.png'
 
 const MyWork = () => (
     <div>
@@ -43,7 +44,7 @@ const MyWork = () => (
             <img 
               src={NumberGif}
               className="workImg"
-              alt="tina"
+              alt="Number gif"
             />
             
             <span className="strong">
@@ -70,7 +71,7 @@ const MyWork = () => (
             <img 
               src={Bomdigity}
               className="workImg"
-              alt="tina"
+              alt="Bomdigity"
             />
             
             <span className="strong">
@@ -94,7 +95,7 @@ const MyWork = () => (
             <img 
               src={flashcard}
               className="workImg"
-              alt="tina"
+              alt="Flashcard gif"
             />
             
             <span className="strong">
@@ -139,9 +140,9 @@ const MyWork = () => (
 
           <section className="workPortfolio">
             <img 
-              src=""
+              src={check}
               className="workImg"
-              alt=""
+              alt="Check writting"
             />
             
             <span className="strong">
@@ -154,12 +155,12 @@ const MyWork = () => (
               Demonstrates: 
             </span>
             <span className="workDetails">
-              React and ES6 Skills
+              Vanilla Javascript and ES6 Skills
             </span>
-            <a href="" target="_blank" rel="noopener noreferrer" className="workDetails">
+            <a href="https://github.com/saykaren/CheckWriting7.26.2019" target="_blank" rel="noopener noreferrer" className="workDetails">
               Code 
             </a>
-            <a href="" target="_blank" rel="noopener noreferrer" className="workDetails">
+            <a href="https://saykaren.github.io/CheckWriting7.26.2019/" target="_blank" rel="noopener noreferrer" className="workDetails">
               Live Site
             </a>
           </section> 
