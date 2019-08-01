@@ -24,16 +24,40 @@ const HeroSection= () => (
         />  
 
         <section className="icons">
-          <a href="https://www.linkedin.com/in/karen-garcia-05842642/" target="_blank" className="socialLinks">
-            <i className="fab fa-linkedin-in" id="linkedIn"></i>
+          <a 
+            href="https://www.linkedin.com/in/karen-garcia-05842642/" 
+            target="_blank" 
+            rel="noopener noreferrer"
+            className="socialLinks"
+          >
+            <i 
+              className="fab fa-linkedin-in" 
+              id="linkedIn"
+            >
+            </i>
           </a>
           
-          <a href="https://www.linkedin.com/in/karen-garcia-05842642/" target="_blank" className="socialLinks">
-            <i className="fab fa-github"></i>
+          <a 
+            href="https://github.com/saykaren/" 
+            target="_blank" 
+            rel="noopener noreferrer"
+            className="socialLinks">
+            <i 
+              className="fab fa-github"
+            >
+            </i>
           </a>
           
-          <a href="https://www.linkedin.com/in/karen-garcia-05842642/" target="_blank" className="socialLinks">
-            <i className="fab fa-codepen"></i>
+          <a 
+            href="https://codepen.io/saykaren/" 
+            target="_blank" 
+            rel="noopener noreferrer"
+            className="socialLinks"
+          >
+            <i 
+              className="fab fa-codepen"
+            >
+            </i>
           </a>
         </section>
 
@@ -43,7 +67,9 @@ const HeroSection= () => (
               id="sayKarenLogoFrontPage"
               alt="sayKaren.com"
         />
-        <div id="stateChange">
+        <div 
+          id="stateChange"
+        >
           ... Build a website
         </div>
         </section>

@@ -11,50 +11,49 @@ const AboutMe = () => (
       >
         <section className="serviceSingleSection">
           <h2 className="serviceHeading">
-          IQ Testing
+          My Objective
           </h2>
             <article>
-              The primary reason I receive requests for IQ Testing is for admissions into a gifted school or program. There are a variety of benefits why you should consider testing your child:
-              <ul>
-                <li>Reason One</li>
-                <li>Reason Two</li>
-                <li>Reason Three</li>
-              </ul>
-            </article>
-        </section>
-        
-        <section className="serviceSingleSection">
-          <h2 className="serviceHeading">
-          How IQ Testing Conducted
-          </h2>
-            <article>
-              Sectionto reassure parents of your skills
-                Lorem ipsum dolor sit amet, urbanitas mnesarchum has eu. Has quis adipisci no, iudico eligendi consulatu ex nec. Agam iusto consequuntur ius ne, eos ad viris recusabo antiopam, at mei nibh affert ignota. Sit an lobortis sadipscing.
-              
-                Lorem ipsum dolor sit amet, urbanitas mnesarchum has eu. Has quis adipisci no, iudico eligendi consulatu ex nec. Agam iusto consequuntur ius ne, eos ad viris recusabo antiopam, at mei nibh affert ignota. Sit an lobortis sadipscing.
-            </article>
-        </section>
-        
-        <section className="serviceSingleSection">
-          <h2 className="serviceHeading">
-          How to schedule IQ Testing
-          </h2>
-            <article>
-              If you live within a 20 mile radius of Thornton, CO I would be grateful to help adminster your child's IQ Testing. Please find my availibility at the link below. Please contact me at <a href="alannaeeverett@gmail.com" target="_blank">alannaeeverett@gmail.com </a> with any questions or too see if I service your area. 
-            </article>
+              <div>
+                To do what you love everyday is not work but freedom. 
+                I have fallen in love with the journey of programming and my goal is to pursue a career that I love which challenges me to grow. 
+              </div>
 
-            <details>
-              <a href="https://www.signupgenius.com/go/10C044DA9AB2AA46-alanna" 
-                target="_blank" 
-                className="button"
-                id="buttonSign"
-                rel="noopener noreferrer"
-              >
-                Sign Up
-              </a>
-            </details>
-            <br></br>
-            <br></br>
+                        </article>
+        </section>
+        
+        <section className="serviceSingleSection">
+          <h2 className="serviceHeading">
+          Ignited Passion for Coding
+          </h2>
+            <article>
+                <strong>How Love Affair Began:</strong>
+                Back in November 2018 I started with python making a simple game in repli.it. From there I decided to learn more which is how I discovered FreeCodeCamp.org. I received my 
+                  <a 
+                    href="https://www.freecodecamp.org/certification/saykaren/responsive-web-design" 
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    certificate
+                  </a> 
+                in Response Web Design . This allowed me to start with the basics of HTML and CSS as well as exposure to JavaScript. 
+                <br></br>
+                <br></br>
+                With the help of my mentors Maire and Dave I have been able to refine my knowledge on the basics as well as learn React and navigate through git.  
+                I believe you can learn anything, you just need to continually expose yourself to that information in different formats until it clicks in your head. With my resourcefulness and persistence that is what I have done with HTML, CSS, JavaScript, git and now React. With help from my mentors Maire & Dave,  as well as books, Lynda.com, FreeCodeCamp.org and tons of other resources I am continually working on refining my skills. 
+                I am excited for this new adventure and look forward to lifting up others as I climb the same way my mentors did for me.
+            </article>
+        </section>
+        
+        <section className="serviceSingleSection">
+          <h2 className="serviceHeading">
+          A Love of Learning
+          </h2>
+            <article>
+              I have come to realize my happiness is tied to my growth. When I am at my peak of fulfillment is when I am learning something new to better myself, my career or people around me. 
+              By glancing at my resume you can see when I start with a company I just don't stay within one department or role but like to expand my knowledge into different areas so that I can serve the customer with that holistic approach. 
+              I am one who loves to learn more as I realized the more I know the more I can help the end customer. 
+            </article>
           </section>
       </div>
     <ContactMe />
