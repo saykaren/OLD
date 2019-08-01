@@ -1,6 +1,6 @@
 import React from 'react';
 import './App.css';
-import karenReference from '../../assets/reference_Karen.jpg'
+
 
 const MyWork = () => (
     <div>

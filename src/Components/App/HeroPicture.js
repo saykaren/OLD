@@ -8,9 +8,7 @@ const HeroSection= () => (
       <main
         className="heroSection"
         id="heroImage"
-      >     
-
-   
+      >        
         <h1
         id="heroText"
         >
@@ -26,9 +24,17 @@ const HeroSection= () => (
         />  
 
         <section className="icons">
-          <i class="fab fa-linkedin-in"></i>
-          <i class="fab fa-github"></i>
-          <i class="fab fa-codepen"></i>
+          <a href="https://www.linkedin.com/in/karen-garcia-05842642/" target="_blank" className="socialLinks">
+            <i className="fab fa-linkedin-in" id="linkedIn"></i>
+          </a>
+          
+          <a href="https://www.linkedin.com/in/karen-garcia-05842642/" target="_blank" className="socialLinks">
+            <i className="fab fa-github"></i>
+          </a>
+          
+          <a href="https://www.linkedin.com/in/karen-garcia-05842642/" target="_blank" className="socialLinks">
+            <i className="fab fa-codepen"></i>
+          </a>
         </section>
 
         <section id="stateLogo">

@@ -1,7 +1,6 @@
 import React from 'react';
 import './App.css';
 import {BrowserRouter as Router, Route, Link} from 'react-router-dom';
-import HeroSection from './HeroPicture';
 import MyWork from './MyWork';
 import ContactMe from './ContactMe';
 import AboutMe from './AboutMe';
