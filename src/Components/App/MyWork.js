@@ -114,28 +114,6 @@ const MyWork = () => (
               Code 
             </a>
              Live: Clone repo and in command line use node index.js to start game 
-
-          </section>
-
-          <section className="workPortfolio">
-            <a href="https://www.freecodecamp.org/certification/saykaren/responsive-web-design" 
-              target="_blank" 
-              rel="noopener noreferrer"
-              className="workDetails" 
-              id="freeCodeCamp"
-            >
-              <img 
-                src={freeCodeCamp}
-                className="workImg"
-                alt="freeCodeCamp Certificate"
-              />
-              <span className="strong">
-              Certificate
-              </span>
-              <span className="workDetails">
-                freeCodeCamp Responsive Web Design Certificate
-              </span>
-            </a>
           </section>
 
           <section className="workPortfolio">
@@ -164,6 +142,27 @@ const MyWork = () => (
               Live Site
             </a>
           </section> 
+
+          <section className="workPortfolio">
+            <a href="https://www.freecodecamp.org/certification/saykaren/responsive-web-design" 
+              target="_blank" 
+              rel="noopener noreferrer"
+              className="workDetails" 
+              id="freeCodeCamp"
+            >
+              <img 
+                src={freeCodeCamp}
+                className="workImg"
+                alt="freeCodeCamp Certificate"
+              />
+              <span className="strong">
+              Certificate
+              </span>
+              <span className="workDetails">
+                freeCodeCamp Responsive Web Design Certificate
+              </span>
+            </a>
+          </section>
 
           {/* <section className="workPortfolio">
             <img 

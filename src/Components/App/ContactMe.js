@@ -17,7 +17,7 @@ const ContactMe = () => (
         id="email"
         className="contactMeDetails"
       >
-        <i class="fa fa-envelope" aria-hidden="true"></i>
+        <i className="fa fa-envelope" aria-hidden="true"></i>
         <a href="mailto:saykaren@gmail.com">
           sayKaren@gmail.com
         </a>
@@ -27,7 +27,7 @@ const ContactMe = () => (
         id="phone"
         className="contactMeDetails"
       >
-        <i class="fa fa-phone" aria-hidden="true"></i>
+        <i className="fa fa-phone" aria-hidden="true"></i>
         <a href="tel:+3039468405">
           303.946.8405
         </a>
@@ -37,7 +37,7 @@ const ContactMe = () => (
         id="address"
         className="contactMeDetails"
       >
-        <i class="fa fa-map-marker" aria-hidden="true"></i>
+        <i className="fa fa-map-marker" aria-hidden="true"></i>
           Thornton, CO
       </section>
     </main>

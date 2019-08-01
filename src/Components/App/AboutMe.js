@@ -16,7 +16,7 @@ const AboutMe = () => (
             <article>
               <div>
                 To do what you love everyday is not work but freedom. 
-                I have fallen in love with the journey of programming and my goal is to pursue a career that I love which challenges me to grow. 
+                I have fallen in love with the journey of programming and my goal is to pursue a career as a Front End Engineer. 
               </div>
 
                         </article>

@@ -1,7 +1,6 @@
 import React from 'react';
 import './App.css';
 import karenHero from '../../assets/karenHero.jpg'
-import sayKarenLogo from '../../assets/sayKaren_Logo_transparent_7.2019.png'
 import sayKarenLogoWhite from '../../assets/sayKaren_logo-white_8.1.2019.png'
 
 const HeroSection= () => (
