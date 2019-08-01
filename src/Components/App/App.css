@@ -214,6 +214,7 @@ body, html {
   display: flex;
   flex-flow: row wrap;
   justify-content: center;
+  margin-top: 7rem;
 }
 
 .services, .faq {
