@@ -3,6 +3,8 @@ import './App.css';
 import freeCodeCamp from '../../assets/Karen_freeCodeCamp_Certificate_Responsive_Web_Design_2.13.2019.png'
 import ReactWebsite from '../../assets/React_Website_ES6_8.1.2019.png'
 import NumberGif from '../../assets/Number_Guesser.gif'
+import Bomdigity from '../../assets/Bomdigity.gif'
+import flashcard from '../../assets/flashcard-starter.gif'
 
 const MyWork = () => (
     <div>
@@ -66,7 +68,7 @@ const MyWork = () => (
 
           <section className="workPortfolio">
             <img 
-              src="https://images.unsplash.com/photo-1437913135140-944c1ee62782?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80"
+              src={Bomdigity}
               className="workImg"
               alt="tina"
             />
@@ -90,7 +92,7 @@ const MyWork = () => (
 
           <section className="workPortfolio">
             <img 
-              src="https://images.unsplash.com/photo-1437913135140-944c1ee62782?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80"
+              src={flashcard}
               className="workImg"
               alt="tina"
             />
@@ -110,6 +112,8 @@ const MyWork = () => (
             <a href="https://github.com/saykaren/flashcards-starter" target="_blank" rel="noopener noreferrer"  className="workDetails">
               Code 
             </a>
+             Live: Clone repo and in command line use node index.js to start game 
+
           </section>
 
           <section className="workPortfolio">
@@ -133,11 +137,38 @@ const MyWork = () => (
             </a>
           </section>
 
+          <section className="workPortfolio">
+            <img 
+              src=""
+              className="workImg"
+              alt=""
+            />
+            
+            <span className="strong">
+             Project Name:
+            </span>
+            <span className="workDetails">
+            Check Conversion
+            </span>
+            <span className="strong">
+              Demonstrates: 
+            </span>
+            <span className="workDetails">
+              React and ES6 Skills
+            </span>
+            <a href="" target="_blank" rel="noopener noreferrer" className="workDetails">
+              Code 
+            </a>
+            <a href="" target="_blank" rel="noopener noreferrer" className="workDetails">
+              Live Site
+            </a>
+          </section> 
+
           {/* <section className="workPortfolio">
             <img 
               src="https://images.unsplash.com/photo-1437913135140-944c1ee62782?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80"
               className="workImg"
-              alt="tina"
+              alt=""
             />
             
             <span className="strong">

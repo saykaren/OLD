@@ -4,7 +4,6 @@ import {BrowserRouter as Router, Route, Link} from 'react-router-dom';
 import MyWork from './MyWork';
 import ContactMe from './ContactMe';
 import AboutMe from './AboutMe';
-// import FAQ from './FAQ';
 import Home from './HomeSection';
 
 const NavigationBar = () => (
