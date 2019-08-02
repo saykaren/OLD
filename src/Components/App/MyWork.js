@@ -6,9 +6,11 @@ import NumberGif from '../../assets/Number_Guesser.gif'
 import Bomdigity from '../../assets/Bomdigity.gif'
 import flashcard from '../../assets/flashcard-starter.gif'
 import check from '../../assets/checkwritting.png'
+import LogoState from './LogoState';
 
 const MyWork = () => (
     <div>
+      <LogoState />
       <h1 id="myWork">
         My Work
       </h1>

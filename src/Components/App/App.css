@@ -123,13 +123,18 @@ body, html {
 }
 
 .icons{
- align-self: center;
- text-decoration: none;
- color: white;
+  align-self: center;
+  text-decoration: none;
+  color: white;
 }
 
 #inputState{
   font-size: 2rem;
+}
+
+#requestState{
+  font-size: 2rem;
+  align-self: center;
 }
 
 .navBar {
@@ -259,6 +264,11 @@ body, html {
 .strong {
   font-weight: bold;
   align-self: center;
+}
+
+#userChangeState{
+  display: flex;
+  flex-direction: column;
 }
 
 .workDetails{

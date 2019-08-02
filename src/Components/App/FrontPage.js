@@ -1,7 +1,7 @@
 import React from 'react';
 import './App.css';
 import sayKarenLogoWhite from '../../assets/sayKaren_logo-white_8.1.2019.png'
-import MyApp from './LogoState';
+import LogoState from './LogoState';
 
 
 const FrontPage= () => (
@@ -28,7 +28,7 @@ const FrontPage= () => (
         <div 
           id="stateChange"
         >
-          <MyApp />
+          <LogoState />
         </div>
         </section>
       </main> 

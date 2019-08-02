@@ -1,8 +1,8 @@
 import React, {useState} from 'react';
 
-const MyApp = () =>{
+const LogoState = () =>{
   const [greeting, setGreeting] = useState(
-    "....Build me a website"
+    "....Build me a market"
   );
   const handleChange = event => setGreeting(event.target.value);
 
@@ -14,13 +14,6 @@ const MyApp = () =>{
       <section
         id="inputState"
       >    
-        <Input 
-          value={greeting}
-          onChangeInput={handleChange}
-          
-        >
-          What do you want?
-        </Input>
       </section>
     </div>
   );
@@ -42,4 +35,4 @@ const Input = ({value, onChangeInput, children}) => (
   </label>
 );
 
-export default MyApp;
+export default LogoState;

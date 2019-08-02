@@ -1,5 +1,6 @@
 import React from 'react';
 import './App.css';
+import InputRequest from './InputRequest';
 
 const ContactMe = () => (
     <main
@@ -40,6 +41,7 @@ const ContactMe = () => (
         <i className="fa fa-map-marker" aria-hidden="true"></i>
           Thornton, CO
       </section>
+    <InputRequest />
     </main>
   );
 
