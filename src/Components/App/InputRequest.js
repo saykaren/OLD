@@ -16,7 +16,7 @@ const InputRequest = () =>{
               id="sayKarenLogoFrontPage"
               alt="sayKaren.com"
         />
-            <Headline
+      <Headline
         headline={request}
       />
       </section>

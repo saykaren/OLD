@@ -10,7 +10,6 @@ import LogoState from './LogoState';
 
 const MyWork = () => (
     <div>
-      <LogoState />
       <h1 id="myWork">
         My Work
       </h1>
