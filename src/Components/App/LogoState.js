@@ -13,22 +13,32 @@ const LogoState = () =>{
     workStates[0]
   );
   // const handleChange = event => setGreeting(event.target.value + 1);
-  const handleChange = event => {
-    // if (greeting !== 0){
-    // console.log({greeting})
-    // console.log({greeting})
-    // setGreeting(workStates[1]);
-    setGreeting(workStates[1]);
-  
+
+
+  const handleChange = () => {
+    Object.filter = (obj, predicate) =>
+      Object.keys(obj)
+            .filter(key=> predicate(obj[key]) )
+            .reduce( (res, key) => (res[key] = obj[key], res), {}
+    );
+    var comparing = Object.filter(workStates, x => x == "...Build a React website");
+    console.log(Object.keys(comparing)); // 3
+    if (greeting !== workStates[3]){
+    // console.log({greeting});
+    // console.log(Object.values(workStates));
+    // var resultHere = "";
+    // function update(x){
+    //   var result = x++
+    //   setGreeting(workStates[result])
+    // };
+    setGreeting(workStates[2]);
+    // console.log({greeting});
+    }else{
+      setGreeting(workStates[0])
+    };
+
   };
   
-    // setGreeting(
-    // if(greeting !==2){
-
-    // }
-    // workStates[1]
-    // );
-
   return(
     <div>
       <div 
