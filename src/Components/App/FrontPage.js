@@ -1,6 +1,8 @@
 import React from 'react';
 import './App.css';
 import sayKarenLogoWhite from '../../assets/sayKaren_logo-white_8.1.2019.png'
+import MyApp from './LogoState';
+
 
 const FrontPage= () => (
     <div>
@@ -26,7 +28,7 @@ const FrontPage= () => (
         <div 
           id="stateChange"
         >
-          ... Build a website
+          <MyApp />
         </div>
         </section>
       </main> 

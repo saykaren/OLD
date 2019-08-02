@@ -1,4 +1,8 @@
 
+a {
+  font-weight: bold;
+}  
+
 body, html {
   height: 100%;
   background-color: #00a3da;
@@ -72,6 +76,8 @@ body, html {
 
 #freeCodeCamp{
   text-decoration: none;
+  color: black;
+
 }
 
 #footer{
@@ -110,10 +116,20 @@ body, html {
   margin-bottom: -5rem;
 }
 
-.icons{
+#iconSection{
   display: flex;
   justify-content: center;
-  padding: 1rem;
+
+}
+
+.icons{
+ align-self: center;
+ text-decoration: none;
+ color: white;
+}
+
+#inputState{
+  font-size: 2rem;
 }
 
 .navBar {
@@ -242,6 +258,7 @@ body, html {
 
 .strong {
   font-weight: bold;
+  align-self: center;
 }
 
 .workDetails{
