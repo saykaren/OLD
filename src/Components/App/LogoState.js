@@ -21,18 +21,31 @@ const LogoState = () =>{
             .filter(key=> predicate(obj[key]) )
             .reduce( (res, key) => (res[key] = obj[key], res), {}
     );
-    var comparing = Object.filter(workStates, x => x == "...Build a React website");
+    var comparing = Object.filter(workStates, x => x === "...Build a React website");
+    var comparingNow = Object.filter(workStates, x => x === currentValue);
+    var lastItem = Object.values(comparing).toString();
+
+    //greeting and CurrentValue is a string originally "...Build a React website" string to be concise
+    var currentValue = greeting;
+    
+    // var correctOrNot = Object.filter(workStates, x => (Object.values(x) === greeting));
+    // console.log({correctOrNot});
+    // console.log(Object.values(correctOrNot));
+    // console.log({greeting});
+    // console.log({lastItem}); //{lastItem: "...Build a React website"}
+
+    // console.log("current type of greeting " +typeof(greeting)); //current type of greeting string
+    // console.log({currentValue});
+    // console.log("current value type " +typeof(currentValue)); //current value type string
+    // console.log("does current value and greeting match" + (currentValue === greeting));
+    // var lastItemString = lastItem.toString();
     console.log(Object.keys(comparing)); // 3
-    if (greeting !== workStates[3]){
-    // console.log({greeting});
-    // console.log(Object.values(workStates));
-    // var resultHere = "";
-    // function update(x){
-    //   var result = x++
-    //   setGreeting(workStates[result])
-    // };
-    setGreeting(workStates[2]);
-    // console.log({greeting});
+    console.log(Object.values(comparing));// ["...Build a React website"]
+
+    console.log(` at end should be true ${greeting === lastItem}`);
+
+    if (greeting !== lastItem){
+      setGreeting(workStates[3]);
     }else{
       setGreeting(workStates[0])
     };
