@@ -22,9 +22,6 @@ const NavigationBar = () => (
             <Link to={"/AboutMe"}>About Me</Link>
           </div>
 
-
-
-
           <div className="navLink">
             <Link to={"/contact"}>Contact Me</Link>
           </div>
@@ -36,6 +33,7 @@ const NavigationBar = () => (
         <Route path={"/AboutMe"} component={AboutMe}/>
         <Route path={"/MyWork"} component={MyWork}/>
         <Route path={'/contact'} component={ContactMe} />
+        <Route path={'/saykaren.github.io/sayKaren_Portfolio_2019/'} component={Home} />
       </div>
   </Router>      
   );
