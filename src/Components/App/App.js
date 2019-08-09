@@ -3,7 +3,7 @@ import './App.css';
 import NavigationBar from './Navigation';
 import Footer from './Footer';
 import {BrowserRouter as Router, Route, Link} from 'react-router-dom';
-import Home from '.HomeSection';
+import Home from './HomeSection';
 
 const App = () => (
    <Router basename={'/'}>
